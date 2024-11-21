@@ -57,3 +57,11 @@ a {
 footer {
   text-decoration: none;
 }
+
+.uk-slider-container {
+  background-color: white !important;
+}
+
+.uk-panel>:last-child{
+  color: #1c1c1f;
+}

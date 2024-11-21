@@ -2153,6 +2153,10 @@ video {
   padding: 50px 48px;
 }
 
+.p-\[40px\] {
+  padding: 40px;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2181,6 +2185,11 @@ video {
 .py-\[26px\] {
   padding-top: 26px;
   padding-bottom: 26px;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .pb-\[20px\] {
@@ -2393,6 +2402,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+.text-red-900 {
+  --tw-text-opacity: 1;
+  color: rgb(127 29 29 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -2833,6 +2847,14 @@ a {
 
 footer {
   text-decoration: none;
+}
+
+.uk-slider-container {
+  background-color: white !important;
+}
+
+.uk-panel>:last-child{
+  color: #1c1c1f;
 }
 
 @media (min-width: 640px) {
