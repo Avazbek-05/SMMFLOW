@@ -2153,10 +2153,6 @@ video {
   padding: 50px 48px;
 }
 
-.p-\[40px\] {
-  padding: 40px;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3110,24 +3106,8 @@ footer {
 }
 
 @media (max-width: 370px) {
-  .max-\[370px\]\:m-auto {
-    margin: auto;
-  }
-
-  .max-\[370px\]\:flex {
-    display: flex;
-  }
-
   .max-\[370px\]\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .max-\[370px\]\:flex-col {
-    flex-direction: column;
-  }
-
-  .max-\[370px\]\:gap-5 {
-    gap: 1.25rem;
   }
 }
 
