@@ -1444,6 +1444,10 @@ video {
   gap: 0.25rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-2\.5 {
   gap: 0.625rem;
 }
@@ -1474,10 +1478,6 @@ video {
 
 .gap-\[45px\] {
   gap: 45px;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-x-5 {
@@ -2798,6 +2798,7 @@ video {
     background-color: rgb(244, 243, 242);
     row-gap: 30px;
     z-index: 999;
+    transition: 0.5s;
   }
 
   #check:checked ~ .nav-ul {
@@ -2821,7 +2822,7 @@ video {
   }
 }
 
-button{
+button {
   transition: 3s;
 }
 
@@ -2830,7 +2831,7 @@ a {
   outline: none;
 }
 
-footer{
+footer {
   text-decoration: none;
 }
 

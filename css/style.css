@@ -27,6 +27,7 @@
     background-color: rgb(244, 243, 242);
     row-gap: 30px;
     z-index: 999;
+    transition: 0.5s;
   }
   #check:checked ~ .nav-ul {
     left: 0;
@@ -42,20 +43,17 @@
 
 @media (max-width: 710px) {
   .footer-item {
-  
     grid-template-columns: 1fr;
     row-gap: 20px;
   }
-  
 }
-button{
+button {
   transition: 3s;
 }
 a {
   text-decoration: none;
   outline: none;
-
 }
-footer{
+footer {
   text-decoration: none;
 }
