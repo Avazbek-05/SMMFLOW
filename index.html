@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMMFLOW</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1 py-[16px] flex items-center justify-between">
+        <div class="flex items-center gap-x-9">
+          <a href="#"
+            ><img class="w-[135px] h-[27px]" src="./svg/logo.svg" alt=""
+          /></a>
+          <nav>
+            <input class="hidden" type="checkbox" id="check" />
+            <ul
+              class="nav-ul flex items-center gap-x-5 text-[16px] font-[400] max-[775px]:text-[20px] max-[775px]:font-[700]"
+            >
+              <li><a href="./about.html">Услуги</a></li>
+              <li><a href="#">Преимущества</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li class="hidden max-[775px]:block">
+                <a href="#">Настройки</a>
+              </li>
+              <li class="hidden max-[775px]:block"><a href="#">Выход</a></li>
+
+              <a class="hidden max-[775px]:block absolute left-5 top-5" href="#"
+                ><img src="./svg/logo.svg" alt=""
+              /></a>
+              <label
+                class="hidden max-[775px]:block absolute top-5 right-6"
+                for="check"
+              >
+                <i class="fa-solid fa-xmark text-[24px]"></i>
+              </label>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex items-center gap-x-8 text-[16px] max-[520px]:hidden">
+          <button class="font-[500]">Войти</button>
+          <button
+            class="text-[#fff] font-[500] text-[] bg-[#1d4ed8] p-[12px_24px] rounded-[6px] hover:bg-[#c4c49e] hover:scale-100 hover:text-[blue]"
+          >
+            Быстрый заказ
+          </button>
+        </div>
+        <label class="hidden max-[775px]:block" for="check">
+          <i class="fa-solid fa-bars-staggered text-[24px]"></i>
+        </label>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+      <section class="wrapper">
+        <div
+          class="container1 flex items-center justify-between max-[915px]:flex-col"
+        >
+          <di class="max-[600px]:mt-[30px] max-[485px]:text-center">
+            <h1
+              class="font-[600] text-[46px] max-[1048px]:text-[35px] max-[365px]:text-[25px]"
+            >
+              Продвижение во всех соцсетях за пару кликов
+            </h1>
+            <p
+              class="font-[400] text-[20px] p-[25px_0_35px_0] max-[365px]:text-[18px]"
+            >
+              Получайте подписчиков, лайки, репосты, просмотры, прослушивания и
+              любую другую активность на свои профили в социальных сетях по
+              самым низким ценами на рынке и в самые быстрые сроки!
+            </p>
+            <button
+              class="text-[#fff] font-[500] text-[18px] bg-[#1d4ed8] p-[15px_24px] rounded-[6px] max-[915px]:hidden hover:bg-[#c4c49e] hover:scale-100 hover:text-[blue]"
+            >
+              Начать продвижение
+            </button>
+          </di>
+          <img class="w-full" src="./img/wrapper-img.png" alt="wrapper" />
+          <button
+            class="text-[#fff] mb-[30px] hidden max-[915px]:block text-[18px] max-[615px]:w-full font-[500] hover:bg-[#c4c49e] hover:scale-100 hover:text-[blue] bg-[#1d4ed8] p-[12px_24px] rounded-[6px]"
+          >
+            Начать продвижение
+          </button>
+        </div>
+      </section>
+      <!-- wrapper end -->
+      <section class="bg-[#0058ff] pb-[60px]">
+        <div class="container1 pt-[40px]">
+          <h2 class="text-center font-[600] text-[36px] text-[#fff]">
+            Быстрый заказ
+          </h2>
+          <div
+            class="uk-visible-toggle uk-light pt-[40px] px-[40px]"
+            tabindex="-1"
+            uk-slider="autoplay: true; autoplay-interval: 1000"
+          >
+            <div
+              class="uk-slider-items uk-child-width-1-2 items-center uk-child-width-1-3@m uk-grid w-full rounded-[11px] max-[370px]:flex max-[370px]:flex-col max-[370px]:gap-5 max-[370px]:m-auto "
+            >
+              <div>
+                <div class="uk-panel flex items-center gap-5"> 
+                  <img src="./svg/insta.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">
+                    Instagram
+                  </h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/vk.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">VK</h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/tik tok.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">TikTok</h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/telegram.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">
+                    Telegram
+                  </h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/yotub.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">YouTube</h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/facbock.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">
+                    Facebook
+                  </h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/twitter.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Twitter</h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/Twitch.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Twitch</h2>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel flex items-center gap-5">
+                  <img src="./svg/RuTube.svg" width="32" height="32" alt="" />
+                  <h2 class="text-[15px] font-[500] text-[#1c1c1f]">RuTube</h2>
+                </div>
+              </div>
+            </div>
+            <a
+              class="uk-position-center-left uk-position-small uk-hidden-hover w-[40px] h-[40px] flex items-center justify-center rounded-full"
+              href
+              uk-slidenav-previous
+              uk-slider-item="previous"
+            ></a>
+            <a
+              class="uk-position-center-right uk-position-small uk-hidden-hover"
+              href
+              uk-slidenav-next
+              uk-slider-item="next"
+            ></a>
+          </div>
+          <div
+            class="mt-[20px] grid grid-cols-5 gap-5 max-[1125px]:grid-cols-3 max-[603px]:grid-cols-2 max-[450px]:grid-cols-1"
+          >
+            <!-- 1 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Подписчики-1.png"
+                alt="1"
+              />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Подписчики
+              </h3>
+            </div>
+            <!-- 2 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img class="w-[38px] h-[38px]" src="./img/Лайки.png" alt="1" />
+              <h3 class="text-[20px] max-[655px]:text-[16px] font-[500]">
+                Лайки
+              </h3>
+            </div>
+            <!-- 3 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Просмотры.png"
+                alt="1"
+              />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Просмотры
+              </h3>
+            </div>
+            <!-- 4 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Комментарии.png"
+                alt="1"
+              />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Комментарии
+              </h3>
+            </div>
+            <!-- 5 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Просмотры .png"
+                alt="1"
+              />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Просмотры
+              </h3>
+            </div>
+            <!-- 6 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Зрители в прямой эфир.png"
+                alt="1"
+              />
+              <h3
+                class="text-[20px] font-[500] text-center max-[655px]:text-[16px]"
+              >
+                Зрители в прямой эфир
+              </h3>
+            </div>
+            <!-- 7 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img
+                class="w-[38px] h-[38px]"
+                src="./img/Статистика.png"
+                alt="1"
+              />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Статистика
+              </h3>
+            </div>
+            <!-- 8 -->
+            <div
+              class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+            >
+              <img class="w-[38px] h-[38px]" src="./img/IGTV.png" alt="1" />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                IGTV
+              </h3>
+            </div>
+            <!-- 9 -->
+            <div
+              class="bg-white p-[50px_48px] rounded-[10px] flex flex-col items-center justify-center gap-3"
+            >
+              <img class="w-[38px] h-[38px]" src="./img/Reels.png" alt="1" />
+              <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Reels
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Быстрый заказ end -->
+
+      <section class="mt-[60px] pb-[20px]">
+        <div class="container1">
+          <h2 class="text-center text-[36px] font-[600] max-[]:">Отзывы клиентов</h2>
+          <div
+            class="uk-visible-toggle uk-light pt-[40px] px-[40px]"
+            tabindex="-1"
+            uk-slider="autoplay: true; autoplay-interval: 1000"
+          >
+            <div
+              class="uk-slider-items uk-child-width-1 items-center uk-child-width-1-3@m uk-grid rounded-[11px] max-[370px]:flex max-[370px]:flex-col max-[370px]:gap-5 max-[370px]:m-auto"
+            >
+              <div >
+                <div class="uk-panel .uk-text-secondary">
+                  <div
+                    class="bg-black p-[30px] max-[387px]:p-[15px] max-[387px]:gap-5 flex flex-col gap-7 rounded "
+                  >
+                    <div class="flex gap-3 items-center  ">
+                      <img src="./svg/Александр.svg" alt="" />
+                      <div >
+                        <h3 .uk-text-danger>Александр</h3>
+                        <div class="flex items-center gap-1">
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                      подписчиков и лайки, все прошло быстро и качественно, всем
+                      рекомендую!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel .uk-text-secondary">
+                  <div
+                    class="bg-black p-[30px] flex flex-col gap-7 rounded max-[387px]:p-[15px] max-[387px]:gap-5"
+                  >
+                    <div class="flex gap-3 items-center">
+                      <img src="./img/Просмотры.png" alt="" />
+                      <div class="">
+                        <h3 .uk-text-danger>Александр</h3>
+                        <div class="flex items-center gap-1">
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                      подписчиков и лайки, все прошло быстро и качественно, всем
+                      рекомендую!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel .uk-text-secondary">
+                  <div
+                    class="bg-black p-[30px] flex flex-col gap-7 rounded max-[387px]:p-[15px] max-[387px]:gap-5"
+                  >
+                    <div class="flex gap-3 items-center">
+                      <img src="./img/Просмотры .png" alt="" />
+                      <div class="">
+                        <h3 .uk-text-danger>Александр</h3>
+                        <div class="flex items-center gap-1">
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                      подписчиков и лайки, все прошло быстро и качественно, всем
+                      рекомендую!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel .uk-text-secondary">
+                  <div
+                    class="bg-black p-[30px] flex flex-col gap-7 rounded max-[387px]:p-[15px] max-[387px]:gap-5"
+                  >
+                    <div class="flex gap-3 items-center">
+                      <img src="./img/Лайки.png" alt="" />
+                      <div class="">
+                        <h3 .uk-text-danger>Александр</h3>
+                        <div class="flex items-center gap-1">
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                      подписчиков и лайки, все прошло быстро и качественно, всем
+                      рекомендую!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="uk-panel .uk-text-secondary">
+                  <div
+                    class="bg-black p-[30px] flex flex-col gap-7 rounded max-[387px]:p-[15px] max-[387px]:gap-5"
+                  >
+                    <div class="flex gap-3 items-center">
+                      <img src="./img/Зрители в прямой эфир.png" alt="" />
+                      <div class="">
+                        <h3 .uk-text-danger>Александр</h3>
+                        <div class="flex items-center gap-1">
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                          <img src="./svg/star.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      SMMFLOW помог мне продвинуть канал на YouTube. Заказывал
+                      подписчиков и лайки, все прошло быстро и качественно, всем
+                      рекомендую!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="uk-position-center-left uk-position-small uk-hidden-hover w-[40px] h-[40px] flex items-center justify-center rounded-full"
+              href
+              uk-slidenav-previous
+              uk-slider-item="previous"
+            ></a>
+            <a
+              class="uk-position-center-right uk-position-small uk-hidden-hover"
+              href
+              uk-slidenav-next
+              uk-slider-item="next"
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- Отзывы клиентов end -->
+
+      <section class="mt-[60px]">
+        <div
+          class="container1 flex items-center justify-around bg-[#0058ff] rounded-[40px] p-[20px] max-[870px]:flex-col max-[870px]:gap-[20px] max-[520px]:text-center"
+        >
+          <div class="">
+            <h1
+              class="text-[36px] font-[600] text-[#fff] max-w-[439px] max-[390px]:text-[25px]"
+            >
+              Скидки до 50% в нашем телеграм-канале
+            </h1>
+            <p class="p-[20px_0_30px_0] text-[18px] font-[400] text-[#fff]">
+              Раздаем промокоды в Telegram каждую неделю
+            </p>
+            <button
+              class="p-[18px_24px] bg-[#2c75ff] rounded-[6px] text-[#fff] text-[18px] max-[295px]:px-[15px] font-[500] hover:bg-[#c4c49e] hover:scale-100 hover:text-[blue]"
+            >
+              Получить промокод
+            </button>
+          </div>
+          <img class="" src="./img/Скидки.png" alt="wrapper" />
+        </div>
+      </section>
+      <!-- Скидки end -->
+
+      <section class="mt-[40px]">
+        <div class="container1">
+          <h2
+            class="text-center text-[36px] font-[600] max-[320px]:text-[25px]"
+          >
+            Частые вопросы
+          </h2>
+          <div
+            class="grid grid-cols-2 gap-[30px] mt-[40px] text-[#000] max-[1220px]:grid-cols-1"
+          >
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Почему цены на ваши
+                <span class="max-[300px]:hidden"
+                  >услуги ниже, чем у конкурентов?</span
+                >
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Какие способы оплаты
+                <span class="max-[300px]:hidden">вы принимаете?</span>
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Как вы гарантируете
+                <span class="max-[300px]:hidden">качество услуг?</span>
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Меня не заблокируют?
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Как я могу узнать о
+                <span class="max-[300px]:hidden">статусе моего заказа?</span>
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Как я могу связаться с
+                <span class="max-[300px]:hidden"> вами?</span>
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Как быстро выполняется заказ?
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div
+              class="bg-[#f8f8f9] flex items-center justify-between p-[22px_25px_22px_15px] rounded-[10px]"
+            >
+              <h3 class="text-[18px] font-[500] text-[#000]">
+                Что произойдет, если
+                <span class="max-[300px]:hidden">
+                  мои подписчики или лайки уйдут?</span
+                >
+              </h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Частые вопросы end -->
+      <footer class="mt-[80px] bg-[#f8f8f9] p-[34px_0_130px_0]">
+        <div class="footer-item container1">
+          <div class="flex flex-col gap-[22px] max-[710px]:m-auto max-[515px]:text-center">
+            <img class="w-[135px] h-[27px] max-[525px]:m-auto" src="./svg/logo.svg" alt="" />
+            <p class="text-[14px] font-[400] max-w-[322px]">
+              SMMFLOW - сервис, где вы сможете приобрести качественное
+              продвижение в социальных сетях по выгодным ценам.
+            </p>
+            <div class="flex items-center gap-1 max-[515px]:m-auto">
+              <img src="./svg/mip.svg" alt="" />
+              <img src="./svg/visa.svg" alt="" />
+              <img src="./svg/ipatka.svg" alt="" />
+              <img src="./svg/qiwi.svg" alt="" />
+            </div>
+          </div>
+          <div class="grid grid-cols-3 justify-between max-[710px]:grid-cols-2 max-[525px]:grid-cols-1 max-[710px]:m-auto max-[710px]:gap-[20px]">
+            <div
+              class="flex flex-col gap-[12px] text-[14px] font-[400] text-[#000] max-[525px]:text-center"
+            >
+              <a class="" href="#">Каталог услуг</a>
+              <a href="#">Преимущества</a>
+              <a href="#">Отзывы</a>
+            </div>
+            <div
+              class="flex flex-col gap-[12px] text-[14px] font-[400] text-[#000] max-[525px]:text-center"
+            >
+              <a href="#">Политика конфиденциальности</a>
+              <a href="#">Публичная оферта</a>
+              <a href="#">Пользовательское соглашение</a>
+              <a href="#">Правила сервиса</a>
+              <a href="#">Контакты</a>
+            </div>
+            <div
+              class="flex justify-end gap-[12px] text-[14px] font-[400] text-[#000] max-[710px]:justify-center max-[525px]:text-center"
+            >
+              <div class="flex flex-col gap-[12px]">
+               <h2><a href="#">Нужна помощь?</a></h2>
+                <button class="p-[16px_26px] bg-[#ebebeb] rounded-[5px] ">Онлайн-чат</button>
+                <a href="mailto:support@smmflow.net">support@smmflow.net</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>

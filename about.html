@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMMFLOW</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1 py-[16px] flex items-center justify-between">
+        <div class="flex items-center gap-x-9">
+          <a href="#"
+            ><img class="w-[135px] h-[27px]" src="./svg/logo.svg" alt=""
+          /></a>
+          <nav>
+            <input class="hidden" type="checkbox" id="check" />
+            <ul
+              class="nav-ul flex items-center gap-x-5 text-[16px] font-[400] max-[775px]:text-[20px] max-[775px]:font-[700]"
+            >
+              <li><a class="" href="#">Услуги</a></li>
+              <li><a href="./index.html">Преимущества</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li class="hidden max-[775px]:block">
+                <a href="#">Настройки</a>
+              </li>
+              <li class="hidden max-[775px]:block"><a href="#">Выход</a></li>
+
+              <a class="hidden max-[775px]:block absolute left-5 top-5" href="#"
+                ><img src="./svg/logo.svg" alt=""
+              /></a>
+              <label
+                class="hidden max-[775px]:block absolute top-5 right-6"
+                for="check"
+              >
+                <i class="fa-solid fa-xmark text-[24px]"></i>
+              </label>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex items-center gap-x-8 text-[16px] max-[520px]:hidden">
+          <button class="font-[500] ">Войти</button>
+          <button
+            class="text-[#fff] font-[500] text-[] bg-[#1d4ed8] p-[12px_24px] rounded-[6px] hover:bg-[#c4c49e] hover:scale-100 hover:text-[blue]"
+          >
+            Быстрый заказ
+          </button>
+        </div>
+        <label class="hidden max-[775px]:block" for="check">
+          <i class="fa-solid fa-bars-staggered text-[24px]"></i>
+        </label>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <section>
+      <div class="container1 py-[26px] grid grid-cols-7 gap-[45px] max-[900px]:grid-cols-5 max-[630px]:grid-cols-3 max-[370px]:grid-cols-2 max-[310px]:gap-[30px]">
+        <!-- 1 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/insta.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Instagram</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/telegram.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Telegram</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Реакции</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+            <a href="#">Комментарии</a>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/vk.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">VK</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+            <a href="#">Релиз</a>
+            <a href="#">Прослушивания</a>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/tik tok.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">TikTok</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/yotub.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">YouTube</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры трансляций</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/Twitch.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Twitch</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Зрители</a>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/facbock.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">FaceBook</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+        <!-- 8-->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/insta.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Instagram</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/telegram.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Telegram</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Реакции</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+            <a href="#">Комментарии</a>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/vk.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">VK</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+            <a href="#">Релиз</a>
+            <a href="#">Прослушивания</a>
+          </div>
+        </div>
+        <!--11 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/tik tok.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">TikTok</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+          </div>
+        </div>
+        <!-- 12-->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/yotub.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">YouTube</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры трансляций</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+        <!-- 13 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/Twitch.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">Twitch</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Зрители</a>
+          </div>
+        </div>
+        <!-- 14 -->
+        <div class="flex flex-col gap-5">
+          <div class="flex items-center gap-1">
+            <img class="w-[20px] h-[20px]" src="./svg/facbock.svg" alt="" />
+            <h3 class="text-[18px] font-[400] text-[#1c1c1f]">FaceBook</h3>
+          </div>
+          <div class="flex flex-col gap-2.5 text-[#000] text-[16px] font-[400]">
+            <a href="#">Подписчики</a>
+            <a href="#">Лайки</a>
+            <a href="#">Просмотры</a>
+            <a href="#">Комментарии</a>
+            <a href="#">Истории</a>
+            <a href="#">Зрители</a>
+            <a href="#">Статистика</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#0058ff] pb-[60px]">
+      <div class="container1 pt-[40px]">
+        <h2 class="text-center font-[600] text-[36px] text-[#fff] max-[400px]:text-[25px]">
+          Быстрый заказ
+        </h2>
+        <div
+          class="uk-visible-toggle uk-light pt-[40px] px-[40px]"
+          tabindex="-1"
+          uk-slider="autoplay: true; autoplay-interval: 1000"
+        >
+          <div
+            class="uk-slider-items uk-child-width-1-2 items-center uk-child-width-1-3@m uk-grid w-full rounded-[11px]  max-[370px]:flex max-[370px]:flex-col max-[370px]:gap-5 max-[370px]:m-auto "
+          >
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/insta.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Instagram</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/vk.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">VK</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/tik tok.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">TikTok</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/telegram.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Telegram</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/yotub.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">YouTube</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/facbock.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Facebook</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/twitter.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Twitter</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/Twitch.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">Twitch</h2>
+              </div>
+            </div>
+            <div>
+              <div class="uk-panel flex items-center gap-5">
+                <img src="./svg/RuTube.svg" width="32" height="32" alt="" />
+                <h2 class="text-[15px] font-[500] text-[#1c1c1f]">RuTube</h2>
+              </div>
+            </div>
+          </div>
+          <a
+            class="uk-position-center-left uk-position-small uk-hidden-hover w-[40px] h-[40px] flex items-center justify-center rounded-full"
+            href
+            uk-slidenav-previous
+            uk-slider-item="previous"
+          ></a>
+          <a
+            class="uk-position-center-right uk-position-small uk-hidden-hover"
+            href
+            uk-slidenav-next
+            uk-slider-item="next"
+          ></a>
+        </div>
+        <div
+          class="mt-[20px] grid grid-cols-5 gap-5 max-[1125px]:grid-cols-3 max-[603px]:grid-cols-2 max-[450px]:grid-cols-1"
+        >
+          <!-- 1 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img
+              class="w-[38px] h-[38px]"
+              src="./img/Подписчики-1.png"
+              alt="1"
+            />
+            <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+              Подписчики
+            </h3>
+          </div>
+          <!-- 2 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img class="w-[38px] h-[38px]" src="./img/Просмотры.png" alt="1" />
+            <h3 class="text-[20px] max-[655px]:text-[16px] font-[500]">
+                Просмотры
+            </h3>
+          </div>
+          <!-- 3 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img class="w-[38px] h-[38px]" src="./img/Авто-реакции.png" alt="1" />
+            <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Реакции
+            </h3>
+          </div>
+          <!-- 4 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img
+              class="w-[38px] h-[38px]"
+              src="./img/Комментарии.png"
+              alt="1"
+            />
+            <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+              Комментарии
+            </h3>
+          </div>
+          <!-- 5 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img class="w-[38px] h-[38px]" src="./img/Просмотры.png" alt="1" />
+            <h3 class="text-[20px] font-[500] max-[655px]:text-[16px]">
+                Автопросмотры
+            </h3>
+          </div>
+          <!-- 6 -->
+          <div
+            class="bg-white rounded-[10px] p-[50px_48px] flex flex-col items-center justify-center gap-3"
+          >
+            <img
+              class="w-[38px] h-[38px]"
+              src="./img/Авто-реакции.png"
+              alt="1"
+            />
+            <h3
+              class="text-[20px] font-[500] text-center max-[655px]:text-[16px]"
+            >
+            Авто-реакции
+            </h3>
+          </div>
+          
+         
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
