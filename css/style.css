@@ -46,8 +46,11 @@
     grid-template-columns: 1fr;
     row-gap: 20px;
   }
+  
 }
-
+button{
+  transition: 3s;
+}
 a {
   text-decoration: none;
   outline: none;
